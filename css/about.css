@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background: rgb(0, 0, 0);
+    font-family: 'Montserrat',sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+/*HEADER*/
+
+.header {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+}
+.header img {
+    margin-left: 80px;
+}
+.header-logo input {
+    /*background: rgba(122, 122, 122, 0.45);*/
+    backdrop-filter: blur(2px);
+    border-radius: 25px;
+    width: 500px;
+    height: 45px;
+}
+.header-logo ion-icon {
+    position: absolute;
+    top: 42px;
+    left: 930px;
+    font-size: 20px;
+}
+.header a:hover {
+    transition: 4s;
+    text-decoration-line: underline;
+}
+
+
+
+
+
+
+
+
+
+#footer {
+    background: rgba(25, 25, 25, 0.61);
+    backdrop-filter: blur(2px);
+    padding: 30px 0;
+}
+
+.footer h1 {
+    font-weight: 400;
+    font-size: 38px;
+    color: #FFFFFF;
+}
+.footer span {
+    color: rgba(8, 0, 255, 0.84);
+}
+.footer-block {
+    padding: 30px 010px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-block h2 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 27px;
+}
+.footer-block h3 {
+    font-weight: 400;
+    font-size: 19px;
+    color: #FFFFFF;
+    padding: 7px 0;
+}
+.footer-block a {
+    font-weight: 400;
+    font-size: 15px;
+    padding: 7px 0;
+    color: #FFFFFF;
+}
+.footer-block div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
